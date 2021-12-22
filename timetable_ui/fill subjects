@@ -1,0 +1,13 @@
+drop table subjects;
+create table subjects(id SERIAL NOT NULL, subject VARCHAR NOT NULL);
+insert into subjects (subject) values ('Компьютерная графика');
+insert into subjects (subject) values ('Философия');
+insert into subjects (subject) values ('Алгебра и геометрия');
+insert into subjects (subject) values ('Высшая математика');
+insert into subjects (subject) values ('Социология');
+insert into subjects (subject) values ('Вычислительная техника');
+insert into subjects (subject) values ('Введение в ИТ');
+insert into subjects (subject) values ('Физра');
+insert into subjects (subject) values ('Английский язык');
+select * from subjects;
+

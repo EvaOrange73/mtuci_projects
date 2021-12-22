@@ -1,0 +1,4 @@
+psql \! chcp 1251
+set client_encoding='win1251';
+set client_encoding='win1251';
+\c timetable_db

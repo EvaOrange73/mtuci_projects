@@ -1,0 +1,8 @@
+drop table literally_timetable;
+create table literally_timetable(id SERIAL NOT NULL, time VARCHAR NOT NULL);
+insert into literally_timetable (time) values ('9:30-11:05');
+insert into literally_timetable (time) values ('11:20-12:55');
+insert into literally_timetable (time) values ('13:10-14:45');
+insert into literally_timetable (time) values ('15:25-17:00');
+insert into literally_timetable (time) values ('17:15-18:50');
+select * from literally_timetable;

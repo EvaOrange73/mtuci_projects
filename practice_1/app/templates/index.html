@@ -1,0 +1,23 @@
+<html>
+<head>
+    {% if title %}
+    <title>{{ title }} - Microblog</title>
+    {% else %}
+    <title>Welcome to Microblog</title>
+    {% endif %}
+    <link rel="stylesheet" href="static/bootstrap.min.css">
+</head>
+<body>
+{% import "form.html" as form%}
+{% extends "base.html" %}
+{% block content %}
+{% if name %}
+<h1 style="color: red; ">Hi, {{ name }}!</h1>
+{% endif %}
+{% for post in posts %}
+<div><p>{{ post.author.username }} says: <b>{{ post.body }}</b></p></div>
+{% endfor %}
+{{ form.render_form(name)}}
+{% endblock %}
+</body>
+</html>

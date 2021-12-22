@@ -1,0 +1,9 @@
+{% macro render_form(name="") %}
+<form action="/dict">
+    <p>Имя</p>
+    <input type="text" name="name" autocomplete="off" value={{name}}>
+    <p>Сообщение</p>
+    <input type="text" name="message" autocomplete="off">
+    <p><input type="submit"></p>
+</form>
+{% endmacro %}

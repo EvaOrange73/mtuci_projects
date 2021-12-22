@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/MyWebApp" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/SimpleBot" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/practice_1" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/practice_2" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/practice_3" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/timetableBot" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/timetable_ui" vcs="Git" />
+  </component>
+</project>
